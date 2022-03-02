@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+    padding: 100px 20px;
+}
+
+body {
+    background-color: rgb(13, 25, 43);
+}
+
+.item {
+    border-radius: 10px;
+    width: 450px;
+    height: 700px;
+    margin: 500px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.39);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1px;
+    grid-template-rows: 300px 10px 200px;
+    padding: 50px;
+}
+
+.parte1 {
+    background-color: rgb(20, 37, 61);
+    grid-area: 1/2/5/3;
+    box-shadow: 20px;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    float: right;
+    margin-right: 200px;
+}
+
+.text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(109, 141, 182);
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.imagem {
+    text-align: center;
+    width: 390px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.imagem2 {
+    text-align: center;
+    width: 400px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+.imagem3 {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: gray;
+    border-style: solid;
+    margin-left: 30px;
+    border-width: 4px;
+}
+
+.imagem:hover {
+    filter: contrast(250%);
+}
+
+
+/*
+Projeto:	Card Resumo do Pedido
+Autor:		Lirana Brixner
+Início:		02/03/2022
+Conclusão:	02/03/2022
+Estimado:	2 horas
+Tempo:	2 horas e 30 minutos
+Versão:	1
+*/
